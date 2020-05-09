@@ -24,6 +24,8 @@ The following **additional** features are implemented:
 - [X] Split the bill with friends
 - [X] Visually appealing gradient background
 - [ ] Can enter custom tip percentage value and number of ways to split in the segmentedcontrol
+- [ ] Round up and round down buttons
+- [ ] Can choose between different themes/moods for the colors of the app in settings view
 - [ ] Can choose local customs for tipping and select type of service (delivery, takeout, restaurant), to determine standard tip percentage
 - [ ] App icons
 - [ ] Compatible with all device types and sizes
@@ -45,6 +47,9 @@ TODO's:
 - have cursor be displayed immediately when user opens app
 - settings screen to save default values
 - dollar sign in the bill total text field
+- round up and round down buttons
+- #neon, #ocean, #violetlights color background views
+- design ezTippin gradient app icon (kind of like Instagram's)
 
 ## License
 
