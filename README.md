@@ -23,6 +23,8 @@ The following **additional** features are implemented:
 
 - [X] Split the bill with friends
 - [X] Visually appealing gradient background
+- [ ] Tint of segment on segmentedcontrol matches tint of gradient color at that x position
+        - use geometry: 
 - [ ] Can enter custom tip percentage value and number of ways to split in the segmentedcontrol
 - [ ] Round up and round down buttons
 - [ ] Can choose between different themes/moods for the colors of the app in settings view
