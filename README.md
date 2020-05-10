@@ -44,11 +44,13 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 Describe any challenges encountered while building the app.
 
 TODO's:
-1) - indicate tip value below bill value
+1) - indicate tip value below bill value - yup
 2) - implement X and X%
 3) - have cursor be displayed immediately when user opens app
 4) - settings screen to save default values
-5) - dollar sign in the bill total text field
+5) - dollar sign in the bill total text field - yup
+        - ran into problems with this in converting newly formatted currency string to double
+            - fixed this by splitting into array without delimiters and then rejoining
 6) - round up and round down buttons
 7) - #neon, #ocean, #violetlights color background views
 8) - design ezTippin gradient app icon (kind of like Instagram's)
