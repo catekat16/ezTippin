@@ -1,0 +1,966 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		32F4FBF07007465EA5066C06F8815A5C /* Pods-ezTippin-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BC45D5649CE15DCAD74561A93C7E1D4B /* Pods-ezTippin-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		395707594939DC9F50006DA3C954A855 /* CurrencyTextField-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 16F0A15FBE108B3D1602996F265E21F8 /* CurrencyTextField-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3A1054C8FE986BA9133B416ACA44902B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		45E8D2FED27DA7F668C6C50381FFD473 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		5E151D28A0EB103892865609FA6CA951 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		B641C89CF5308F68340ECC20835CDF16 /* CurrencyTextField-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 065333BB287C4AA05E24BA64B2BA3F29 /* CurrencyTextField-dummy.m */; };
+		B7A769682B40519040EEBC005381F60C /* Pods-ezTippinTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BF68BAA38D7E5B98AC8F6ED86C85B060 /* Pods-ezTippinTests-dummy.m */; };
+		B966915004C7D67445972AD9013F2A14 /* Pods-ezTippinTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 785B043F8C7449AFB963FACAE4CA053C /* Pods-ezTippinTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BF31ED80E37482F8B7B1CE6A9A11ACB4 /* Pods-ezTippin-ezTippinUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 077F9EDEAF5E5991F44F6F53CBA02709 /* Pods-ezTippin-ezTippinUITests-dummy.m */; };
+		C65778768A3EBA6585A1C1EA61D48101 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		C83E3BE72AA34AF4D24A4B402BAD09CE /* Pods-ezTippin-ezTippinUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A80A1409227C60B53D59CAC0ECF7B31 /* Pods-ezTippin-ezTippinUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D50E913A4B10B13CABD4513C36D84D64 /* Pods-ezTippin-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 61FE7F59A16EB6A695ADD8F938A5D286 /* Pods-ezTippin-dummy.m */; };
+		FECCE68021768B0D7F0067A8CC6E82E4 /* CurrencyTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A80BACF6066715C25362AFB167B640 /* CurrencyTextField.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		29D54396354F9A471B8E02561EAC4CF1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2314F61537E6B1267370B0E9BBB97E9;
+			remoteInfo = "Pods-ezTippin";
+		};
+		990FA04C7F1F5A1EE9A6D1E624AC1EC7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE3C56E1F39D7692FF4B9E21B22B68A7;
+			remoteInfo = CurrencyTextField;
+		};
+		CFE4D88132A5B9E39EEF5A2DC63FA08B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE3C56E1F39D7692FF4B9E21B22B68A7;
+			remoteInfo = CurrencyTextField;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		065333BB287C4AA05E24BA64B2BA3F29 /* CurrencyTextField-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CurrencyTextField-dummy.m"; sourceTree = "<group>"; };
+		077F9EDEAF5E5991F44F6F53CBA02709 /* Pods-ezTippin-ezTippinUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ezTippin-ezTippinUITests-dummy.m"; sourceTree = "<group>"; };
+		0A80A1409227C60B53D59CAC0ECF7B31 /* Pods-ezTippin-ezTippinUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ezTippin-ezTippinUITests-umbrella.h"; sourceTree = "<group>"; };
+		16F0A15FBE108B3D1602996F265E21F8 /* CurrencyTextField-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CurrencyTextField-umbrella.h"; sourceTree = "<group>"; };
+		19A80BACF6066715C25362AFB167B640 /* CurrencyTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CurrencyTextField.swift; path = CurrencyTextField/CurrencyTextField.swift; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		34B6D75F80A1D052836979A03E99103D /* Pods-ezTippin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ezTippin.release.xcconfig"; sourceTree = "<group>"; };
+		38045620CB51A5F14019AC6D3255F7A2 /* Pods-ezTippin.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ezTippin.modulemap"; sourceTree = "<group>"; };
+		3DDE5B44A8979B2C898DF1ECE2079509 /* Pods-ezTippin-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ezTippin-Info.plist"; sourceTree = "<group>"; };
+		4B9204CF4566CE347F257FDF074DB521 /* CurrencyTextField-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CurrencyTextField-Info.plist"; sourceTree = "<group>"; };
+		5972CF65ED9593144429B8983284E0A9 /* Pods_ezTippin_ezTippinUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ezTippin_ezTippinUITests.framework; path = "Pods-ezTippin-ezTippinUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		61FE7F59A16EB6A695ADD8F938A5D286 /* Pods-ezTippin-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ezTippin-dummy.m"; sourceTree = "<group>"; };
+		669E2DBED60696CBD9EB1687BE1C6B01 /* CurrencyTextField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CurrencyTextField.framework; path = CurrencyTextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		688BF5FA69C8F9FD9C70EE6F160F87C6 /* CurrencyTextField.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CurrencyTextField.modulemap; sourceTree = "<group>"; };
+		68BE2B30F97BAD80F052A22C7D7C4588 /* Pods-ezTippin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ezTippin.debug.xcconfig"; sourceTree = "<group>"; };
+		6901E278BA01361C49772817B1D950F7 /* Pods-ezTippin-ezTippinUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ezTippin-ezTippinUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6E52D2D07070995B04E3A62C31FD7D9A /* CurrencyTextField.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CurrencyTextField.xcconfig; sourceTree = "<group>"; };
+		70CF99D121E751D272D50C76F2156C19 /* Pods-ezTippinTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ezTippinTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		7746BB648FF9EE891ADE42E50003D088 /* Pods-ezTippinTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ezTippinTests.release.xcconfig"; sourceTree = "<group>"; };
+		785B043F8C7449AFB963FACAE4CA053C /* Pods-ezTippinTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ezTippinTests-umbrella.h"; sourceTree = "<group>"; };
+		891A1AB8F008F1245E175E5BD7D4F6A0 /* Pods_ezTippinTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ezTippinTests.framework; path = "Pods-ezTippinTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8995964D57F8A4FA1B913CA40B66835C /* Pods-ezTippin-ezTippinUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ezTippin-ezTippinUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A5E05D4CB65B0A7C63BE7EA1D8543540 /* Pods-ezTippinTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ezTippinTests-Info.plist"; sourceTree = "<group>"; };
+		ABC80C14971397BC44ECF17D6B2D19EC /* Pods-ezTippinTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ezTippinTests.debug.xcconfig"; sourceTree = "<group>"; };
+		ACA4214198C1CF207BBA70D55B70945D /* Pods-ezTippin-ezTippinUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ezTippin-ezTippinUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B2A98C9EE539EF6BB264475D4372F054 /* Pods-ezTippin-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ezTippin-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B8AD49C0E91884A6AE913F513EC890DF /* Pods-ezTippin-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ezTippin-frameworks.sh"; sourceTree = "<group>"; };
+		B96F823C070D6AB663F7736574F39DCA /* Pods-ezTippin-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ezTippin-acknowledgements.plist"; sourceTree = "<group>"; };
+		BC45D5649CE15DCAD74561A93C7E1D4B /* Pods-ezTippin-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ezTippin-umbrella.h"; sourceTree = "<group>"; };
+		BF68BAA38D7E5B98AC8F6ED86C85B060 /* Pods-ezTippinTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ezTippinTests-dummy.m"; sourceTree = "<group>"; };
+		DB8D98A4F924716DDBFF5D73BB0B0E29 /* Pods_ezTippin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ezTippin.framework; path = "Pods-ezTippin.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBF9BBD5990B3E96D804B6933D369020 /* Pods-ezTippin-ezTippinUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ezTippin-ezTippinUITests.modulemap"; sourceTree = "<group>"; };
+		E3424255F469E6CAE822B052F88D77E7 /* Pods-ezTippin-ezTippinUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ezTippin-ezTippinUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		E7D352346E031A4487BCF3E3BC181E23 /* CurrencyTextField-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CurrencyTextField-prefix.pch"; sourceTree = "<group>"; };
+		EF2807872467AEBFE89F38C6FBB8F11F /* Pods-ezTippinTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ezTippinTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F2D069C6D82CC78A872BB0C7AA920EF0 /* Pods-ezTippin-ezTippinUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ezTippin-ezTippinUITests-frameworks.sh"; sourceTree = "<group>"; };
+		F3A675CC3D615591B85B5DED395958D4 /* Pods-ezTippinTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ezTippinTests.modulemap"; sourceTree = "<group>"; };
+		FEDE9524B083D4EF02AC0468D965FB0F /* Pods-ezTippin-ezTippinUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ezTippin-ezTippinUITests-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		025355B34EAA8050C4E08C7C890F4248 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C65778768A3EBA6585A1C1EA61D48101 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03167FF7236DA81988B6B01F75BFFB8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E151D28A0EB103892865609FA6CA951 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48647F6919A5066D9F34C5F8388D8530 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45E8D2FED27DA7F668C6C50381FFD473 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9B5F2AEEA36621B57DF431EE916429E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A1054C8FE986BA9133B416ACA44902B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0664845FD5170B30EF333EA33C720E04 /* Pods-ezTippin-ezTippinUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DBF9BBD5990B3E96D804B6933D369020 /* Pods-ezTippin-ezTippinUITests.modulemap */,
+				6901E278BA01361C49772817B1D950F7 /* Pods-ezTippin-ezTippinUITests-acknowledgements.markdown */,
+				E3424255F469E6CAE822B052F88D77E7 /* Pods-ezTippin-ezTippinUITests-acknowledgements.plist */,
+				077F9EDEAF5E5991F44F6F53CBA02709 /* Pods-ezTippin-ezTippinUITests-dummy.m */,
+				F2D069C6D82CC78A872BB0C7AA920EF0 /* Pods-ezTippin-ezTippinUITests-frameworks.sh */,
+				FEDE9524B083D4EF02AC0468D965FB0F /* Pods-ezTippin-ezTippinUITests-Info.plist */,
+				0A80A1409227C60B53D59CAC0ECF7B31 /* Pods-ezTippin-ezTippinUITests-umbrella.h */,
+				ACA4214198C1CF207BBA70D55B70945D /* Pods-ezTippin-ezTippinUITests.debug.xcconfig */,
+				8995964D57F8A4FA1B913CA40B66835C /* Pods-ezTippin-ezTippinUITests.release.xcconfig */,
+			);
+			name = "Pods-ezTippin-ezTippinUITests";
+			path = "Target Support Files/Pods-ezTippin-ezTippinUITests";
+			sourceTree = "<group>";
+		};
+		23CB842A7EAAA3AD655A3FD1D8D2CDA2 /* CurrencyTextField */ = {
+			isa = PBXGroup;
+			children = (
+				19A80BACF6066715C25362AFB167B640 /* CurrencyTextField.swift */,
+				FD0123F0124B0811E53BC0557D726042 /* Support Files */,
+			);
+			name = CurrencyTextField;
+			path = CurrencyTextField;
+			sourceTree = "<group>";
+		};
+		251C0A97C9E60990CAC13205E17B6981 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C2C73BAF49E20B7C415DA287BF1CC15F /* Pods-ezTippin */,
+				0664845FD5170B30EF333EA33C720E04 /* Pods-ezTippin-ezTippinUITests */,
+				F1911020541DDBD8CBE20B7EBC6E5B72 /* Pods-ezTippinTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		880CD959C64708D02D547F9122DC6A99 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				23CB842A7EAAA3AD655A3FD1D8D2CDA2 /* CurrencyTextField */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A41A242E6819AF46CC9D98039F7FA80B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				669E2DBED60696CBD9EB1687BE1C6B01 /* CurrencyTextField.framework */,
+				DB8D98A4F924716DDBFF5D73BB0B0E29 /* Pods_ezTippin.framework */,
+				5972CF65ED9593144429B8983284E0A9 /* Pods_ezTippin_ezTippinUITests.framework */,
+				891A1AB8F008F1245E175E5BD7D4F6A0 /* Pods_ezTippinTests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C2C73BAF49E20B7C415DA287BF1CC15F /* Pods-ezTippin */ = {
+			isa = PBXGroup;
+			children = (
+				38045620CB51A5F14019AC6D3255F7A2 /* Pods-ezTippin.modulemap */,
+				B2A98C9EE539EF6BB264475D4372F054 /* Pods-ezTippin-acknowledgements.markdown */,
+				B96F823C070D6AB663F7736574F39DCA /* Pods-ezTippin-acknowledgements.plist */,
+				61FE7F59A16EB6A695ADD8F938A5D286 /* Pods-ezTippin-dummy.m */,
+				B8AD49C0E91884A6AE913F513EC890DF /* Pods-ezTippin-frameworks.sh */,
+				3DDE5B44A8979B2C898DF1ECE2079509 /* Pods-ezTippin-Info.plist */,
+				BC45D5649CE15DCAD74561A93C7E1D4B /* Pods-ezTippin-umbrella.h */,
+				68BE2B30F97BAD80F052A22C7D7C4588 /* Pods-ezTippin.debug.xcconfig */,
+				34B6D75F80A1D052836979A03E99103D /* Pods-ezTippin.release.xcconfig */,
+			);
+			name = "Pods-ezTippin";
+			path = "Target Support Files/Pods-ezTippin";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				880CD959C64708D02D547F9122DC6A99 /* Pods */,
+				A41A242E6819AF46CC9D98039F7FA80B /* Products */,
+				251C0A97C9E60990CAC13205E17B6981 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F1911020541DDBD8CBE20B7EBC6E5B72 /* Pods-ezTippinTests */ = {
+			isa = PBXGroup;
+			children = (
+				F3A675CC3D615591B85B5DED395958D4 /* Pods-ezTippinTests.modulemap */,
+				EF2807872467AEBFE89F38C6FBB8F11F /* Pods-ezTippinTests-acknowledgements.markdown */,
+				70CF99D121E751D272D50C76F2156C19 /* Pods-ezTippinTests-acknowledgements.plist */,
+				BF68BAA38D7E5B98AC8F6ED86C85B060 /* Pods-ezTippinTests-dummy.m */,
+				A5E05D4CB65B0A7C63BE7EA1D8543540 /* Pods-ezTippinTests-Info.plist */,
+				785B043F8C7449AFB963FACAE4CA053C /* Pods-ezTippinTests-umbrella.h */,
+				ABC80C14971397BC44ECF17D6B2D19EC /* Pods-ezTippinTests.debug.xcconfig */,
+				7746BB648FF9EE891ADE42E50003D088 /* Pods-ezTippinTests.release.xcconfig */,
+			);
+			name = "Pods-ezTippinTests";
+			path = "Target Support Files/Pods-ezTippinTests";
+			sourceTree = "<group>";
+		};
+		FD0123F0124B0811E53BC0557D726042 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				688BF5FA69C8F9FD9C70EE6F160F87C6 /* CurrencyTextField.modulemap */,
+				6E52D2D07070995B04E3A62C31FD7D9A /* CurrencyTextField.xcconfig */,
+				065333BB287C4AA05E24BA64B2BA3F29 /* CurrencyTextField-dummy.m */,
+				4B9204CF4566CE347F257FDF074DB521 /* CurrencyTextField-Info.plist */,
+				E7D352346E031A4487BCF3E3BC181E23 /* CurrencyTextField-prefix.pch */,
+				16F0A15FBE108B3D1602996F265E21F8 /* CurrencyTextField-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CurrencyTextField";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		16F6284B4103E1DDE94F05887C7F7D14 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C83E3BE72AA34AF4D24A4B402BAD09CE /* Pods-ezTippin-ezTippinUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70B704FE97E3FC93CF5CBF319F5455EF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				395707594939DC9F50006DA3C954A855 /* CurrencyTextField-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB152A3C8AF3CA24084638F005DAE732 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32F4FBF07007465EA5066C06F8815A5C /* Pods-ezTippin-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA9FAC63B7C39E84F544A9FC19D4B7C8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B966915004C7D67445972AD9013F2A14 /* Pods-ezTippinTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8EB286857F381641AAC9A81296608263 /* Pods-ezTippin-ezTippinUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3409C0D1BB9E3FF81C32F3941B6AA661 /* Build configuration list for PBXNativeTarget "Pods-ezTippin-ezTippinUITests" */;
+			buildPhases = (
+				16F6284B4103E1DDE94F05887C7F7D14 /* Headers */,
+				F2969EC5CE660FC883AFE9188784B3F5 /* Sources */,
+				B9B5F2AEEA36621B57DF431EE916429E /* Frameworks */,
+				990824ACA5EF95B1F0843286BBB022B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D25B0DD726229E86C04827991060A262 /* PBXTargetDependency */,
+			);
+			name = "Pods-ezTippin-ezTippinUITests";
+			productName = "Pods-ezTippin-ezTippinUITests";
+			productReference = 5972CF65ED9593144429B8983284E0A9 /* Pods_ezTippin_ezTippinUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A2314F61537E6B1267370B0E9BBB97E9 /* Pods-ezTippin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 648F4C26045F1DB2D196EE3258149EB0 /* Build configuration list for PBXNativeTarget "Pods-ezTippin" */;
+			buildPhases = (
+				AB152A3C8AF3CA24084638F005DAE732 /* Headers */,
+				84437C595F3D49E9EF6BABB22FDCA029 /* Sources */,
+				03167FF7236DA81988B6B01F75BFFB8F /* Frameworks */,
+				869E489192342D19CAB4BC6E7B14ADD6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE0E68F4AD76F25F1689398641DF91C8 /* PBXTargetDependency */,
+			);
+			name = "Pods-ezTippin";
+			productName = "Pods-ezTippin";
+			productReference = DB8D98A4F924716DDBFF5D73BB0B0E29 /* Pods_ezTippin.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BB07215A750D9FB40CAC164A1EBED563 /* Pods-ezTippinTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F5319F4F9BD46863696CE6AEBA2FFF9 /* Build configuration list for PBXNativeTarget "Pods-ezTippinTests" */;
+			buildPhases = (
+				BA9FAC63B7C39E84F544A9FC19D4B7C8 /* Headers */,
+				A244AD2891220AB3EA51917BBC578F1B /* Sources */,
+				025355B34EAA8050C4E08C7C890F4248 /* Frameworks */,
+				9627136C5A9A8B788D7FA3610FB70C67 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D05283ACAAB24CC5C409D99370DE52C7 /* PBXTargetDependency */,
+			);
+			name = "Pods-ezTippinTests";
+			productName = "Pods-ezTippinTests";
+			productReference = 891A1AB8F008F1245E175E5BD7D4F6A0 /* Pods_ezTippinTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BE3C56E1F39D7692FF4B9E21B22B68A7 /* CurrencyTextField */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 167C2A77290D788930448074CE6D2509 /* Build configuration list for PBXNativeTarget "CurrencyTextField" */;
+			buildPhases = (
+				70B704FE97E3FC93CF5CBF319F5455EF /* Headers */,
+				F7966D162F29E807CE2160E91BFC9E4D /* Sources */,
+				48647F6919A5066D9F34C5F8388D8530 /* Frameworks */,
+				C0EEA270137B752810470C78FBBDB5E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CurrencyTextField;
+			productName = CurrencyTextField;
+			productReference = 669E2DBED60696CBD9EB1687BE1C6B01 /* CurrencyTextField.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = A41A242E6819AF46CC9D98039F7FA80B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE3C56E1F39D7692FF4B9E21B22B68A7 /* CurrencyTextField */,
+				A2314F61537E6B1267370B0E9BBB97E9 /* Pods-ezTippin */,
+				8EB286857F381641AAC9A81296608263 /* Pods-ezTippin-ezTippinUITests */,
+				BB07215A750D9FB40CAC164A1EBED563 /* Pods-ezTippinTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		869E489192342D19CAB4BC6E7B14ADD6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9627136C5A9A8B788D7FA3610FB70C67 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		990824ACA5EF95B1F0843286BBB022B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0EEA270137B752810470C78FBBDB5E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84437C595F3D49E9EF6BABB22FDCA029 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D50E913A4B10B13CABD4513C36D84D64 /* Pods-ezTippin-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A244AD2891220AB3EA51917BBC578F1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7A769682B40519040EEBC005381F60C /* Pods-ezTippinTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2969EC5CE660FC883AFE9188784B3F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF31ED80E37482F8B7B1CE6A9A11ACB4 /* Pods-ezTippin-ezTippinUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7966D162F29E807CE2160E91BFC9E4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B641C89CF5308F68340ECC20835CDF16 /* CurrencyTextField-dummy.m in Sources */,
+				FECCE68021768B0D7F0067A8CC6E82E4 /* CurrencyTextField.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AE0E68F4AD76F25F1689398641DF91C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CurrencyTextField;
+			target = BE3C56E1F39D7692FF4B9E21B22B68A7 /* CurrencyTextField */;
+			targetProxy = CFE4D88132A5B9E39EEF5A2DC63FA08B /* PBXContainerItemProxy */;
+		};
+		D05283ACAAB24CC5C409D99370DE52C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ezTippin";
+			target = A2314F61537E6B1267370B0E9BBB97E9 /* Pods-ezTippin */;
+			targetProxy = 29D54396354F9A471B8E02561EAC4CF1 /* PBXContainerItemProxy */;
+		};
+		D25B0DD726229E86C04827991060A262 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CurrencyTextField;
+			target = BE3C56E1F39D7692FF4B9E21B22B68A7 /* CurrencyTextField */;
+			targetProxy = 990FA04C7F1F5A1EE9A6D1E624AC1EC7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		17FC60F461CACC9416D173E2A67B2FB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E52D2D07070995B04E3A62C31FD7D9A /* CurrencyTextField.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CurrencyTextField/CurrencyTextField-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CurrencyTextField/CurrencyTextField-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CurrencyTextField/CurrencyTextField.modulemap";
+				PRODUCT_MODULE_NAME = CurrencyTextField;
+				PRODUCT_NAME = CurrencyTextField;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		17FFB315F1BE4313C1AEF004E0358702 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8995964D57F8A4FA1B913CA40B66835C /* Pods-ezTippin-ezTippinUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ezTippin-ezTippinUITests/Pods-ezTippin-ezTippinUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ezTippin-ezTippinUITests/Pods-ezTippin-ezTippinUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		267A667AEF22C8FD0B964A71503CB813 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACA4214198C1CF207BBA70D55B70945D /* Pods-ezTippin-ezTippinUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ezTippin-ezTippinUITests/Pods-ezTippin-ezTippinUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ezTippin-ezTippinUITests/Pods-ezTippin-ezTippinUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		32C2FB3BD9A2402E2347CE50F405010A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		3B34AD3A98A6DFC422DF33AB15D54792 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68BE2B30F97BAD80F052A22C7D7C4588 /* Pods-ezTippin.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ezTippin/Pods-ezTippin-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ezTippin/Pods-ezTippin.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		65E8432CA1AC1817F746BE6B5C4F067E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		BB702682C65AA4D3AE0A8D216E3F3F14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E52D2D07070995B04E3A62C31FD7D9A /* CurrencyTextField.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CurrencyTextField/CurrencyTextField-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CurrencyTextField/CurrencyTextField-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CurrencyTextField/CurrencyTextField.modulemap";
+				PRODUCT_MODULE_NAME = CurrencyTextField;
+				PRODUCT_NAME = CurrencyTextField;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BE3624BDBE215E6981455890723E8D40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34B6D75F80A1D052836979A03E99103D /* Pods-ezTippin.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ezTippin/Pods-ezTippin-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ezTippin/Pods-ezTippin.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C1667302E354C22B67C420E714C68574 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ABC80C14971397BC44ECF17D6B2D19EC /* Pods-ezTippinTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ezTippinTests/Pods-ezTippinTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ezTippinTests/Pods-ezTippinTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C481AC1814758922784A5C9CEF51FA43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7746BB648FF9EE891ADE42E50003D088 /* Pods-ezTippinTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ezTippinTests/Pods-ezTippinTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ezTippinTests/Pods-ezTippinTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		167C2A77290D788930448074CE6D2509 /* Build configuration list for PBXNativeTarget "CurrencyTextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB702682C65AA4D3AE0A8D216E3F3F14 /* Debug */,
+				17FC60F461CACC9416D173E2A67B2FB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3409C0D1BB9E3FF81C32F3941B6AA661 /* Build configuration list for PBXNativeTarget "Pods-ezTippin-ezTippinUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				267A667AEF22C8FD0B964A71503CB813 /* Debug */,
+				17FFB315F1BE4313C1AEF004E0358702 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F5319F4F9BD46863696CE6AEBA2FFF9 /* Build configuration list for PBXNativeTarget "Pods-ezTippinTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1667302E354C22B67C420E714C68574 /* Debug */,
+				C481AC1814758922784A5C9CEF51FA43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65E8432CA1AC1817F746BE6B5C4F067E /* Debug */,
+				32C2FB3BD9A2402E2347CE50F405010A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		648F4C26045F1DB2D196EE3258149EB0 /* Build configuration list for PBXNativeTarget "Pods-ezTippin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B34AD3A98A6DFC422DF33AB15D54792 /* Debug */,
+				BE3624BDBE215E6981455890723E8D40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

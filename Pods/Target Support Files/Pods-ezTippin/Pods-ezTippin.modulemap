@@ -1,0 +1,6 @@
+framework module Pods_ezTippin {
+  umbrella header "Pods-ezTippin-umbrella.h"
+
+  export *
+  module * { export * }
+}
