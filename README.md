@@ -51,6 +51,9 @@ DONE:
 5) - dollar sign in the bill total text field - yup
         - ran into problems with this in converting newly formatted currency string to double
             - fixed this by splitting into array without delimiters and then rejoining
+
+## More Notes
+
 TODO's:
 2) - implement X and X%
 4) - settings screen to save default values
