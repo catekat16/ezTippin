@@ -17,7 +17,7 @@ The following **optional** features are implemented:
 * [X] UI animations
 * [ ] Remembering the bill amount across app restarts (if <10mins)
 * [ ] Using locale-specific currency and currency thousands separators.
-* [ ] Making sure the keyboard is always visible and the bill amount is always the first responder. This way the user doesn't have to tap anywhere to use this app. Just launch the app and start typing.
+* [X] Making sure the keyboard is always visible and the bill amount is always the first responder. This way the user doesn't have to tap anywhere to use this app. Just launch the app and start typing.
 
 The following **additional** features are implemented:
 
@@ -46,7 +46,7 @@ Describe any challenges encountered while building the app.
 TODO's:
 1) - indicate tip value below bill value - yup
 2) - implement X and X%
-3) - have cursor be displayed immediately when user opens app
+3) - have cursor be displayed immediately when user opens app - yup
 4) - settings screen to save default values
 5) - dollar sign in the bill total text field - yup
         - ran into problems with this in converting newly formatted currency string to double
