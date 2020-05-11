@@ -15,6 +15,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var topView: UIView!
     @IBOutlet weak var bottomView: UIView!
     
+    
     @IBOutlet weak var billField: CurrencyTextField!
     @IBOutlet weak var totalLabel: UILabel!
     @IBOutlet weak var tipLabel: UILabel!
@@ -31,8 +32,17 @@ class ViewController: UIViewController {
         
         for (index, view) in sortedViews.enumerated() {
             if index == splitControl.selectedSegmentIndex {
-                view.backgroundColor = UIColor.blue
+                //view.backgroundColor = UIColor.blue
+                let fraction = (Double(index+1)/14.0)
+                
+                let b1 = Double(74 + fraction * (187-74))
+                let b2 = Double(144 + fraction * (213-144))
+                let b3 = Double(228 + fraction * (245-228))
+                
+                view.backgroundColor = UIColor(red: CGFloat(b1/255.0), green: CGFloat(b2/255.0), blue: CGFloat(b3/255.0), alpha: 1.0)
+                
                 splitControl.setTitleTextAttributes([NSAttributedString.Key.foregroundColor: UIColor.white], for: .selected)
+                
             } else {
                 view.tintColor = UIColor.white
                 view.backgroundColor = nil
@@ -82,7 +92,31 @@ class ViewController: UIViewController {
         
         for (index, view) in sortedViews.enumerated() {
             if index == splitControl.selectedSegmentIndex {
-                view.backgroundColor = UIColor.blue
+                //view.backgroundColor = UIColor.blue
+                //print(index0)
+                
+                let fraction = (Double(index+1)/14.0)
+                
+                let b1 = Double(74 + fraction * (187-74))
+                let b2 = Double(144 + fraction * (213-144))
+                let b3 = Double(228 + fraction * (245-228))
+                
+                view.backgroundColor = UIColor(red: CGFloat(b1/255.0), green: CGFloat(b2/255.0), blue: CGFloat(b3/255.0), alpha: 1.0)
+                
+                //var red = Double(74 + ((index+1)/14) * (187-74))
+                //let green = Double(144 + ((index0+1)/14) * (213-144))
+                //let blue = Double(228 + ((index0+1)/14) * (245-228))
+                //print(index)
+                print(b1)
+                //print(green)
+                //print(blue)
+                //if index == 0 { view.setGradientBackground(colorOne: Colors.white, colorTwo: Colors.blue) }
+                //else if index == 1 { view.backgroundColor = Colors.blue1 }
+                //else if index == 2 { view.backgroundColor = Colors.blue2 }
+                //else if index == 3 { view.backgroundColor = Colors.blue3 }
+                //else if index == 3 { view.backgroundColor = Colors.blue4 }
+               // else if index == 3 { view.backgroundColor = Colors.blue5 }
+                //else if index == 6 { view.backgroundColor = Colors.blue6 }
                 splitControl.setTitleTextAttributes([NSAttributedString.Key.foregroundColor: UIColor.white], for: .selected)
             } else {
                 view.tintColor = UIColor.white

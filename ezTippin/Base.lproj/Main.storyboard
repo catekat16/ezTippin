@@ -169,6 +169,28 @@
             </objects>
             <point key="canvasLocation" x="3708" y="27"/>
         </scene>
+        <!--Launch View Controller-->
+        <scene sceneID="Ozy-id-gbV">
+            <objects>
+                <viewController id="WJI-DR-PgP" customClass="LaunchViewController" customModule="ezTippin" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="kcs-7t-2i2" userLabel="Shimmer View">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1eT-kb-OZg">
+                                <rect key="frame" x="193" y="156" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="EkD-JF-OTR"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vcu-yu-o0W" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1062" y="27"/>
+        </scene>
         <!--Navigation Controller-->
         <scene sceneID="ExI-uU-dF4">
             <objects>
