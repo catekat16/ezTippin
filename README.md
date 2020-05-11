@@ -38,9 +38,15 @@ The following **additional** features are implemented:
 Here's a walkthrough of implemented user stories:
 
 Version 1:
+
+
+
 <img src='http://g.recordit.co/qhC1mSoNlH.gif' title='Video Walkthrough' width='250' alt='Video Walkthrough' /> 
 
 Version 2:
+
+
+
 <img src='http://g.recordit.co/Nden70S0tk.gif' title='Video Walkthrough' width='250' alt='Video Walkthrough' /> 
 
 ## Changing the color of a selected segment
