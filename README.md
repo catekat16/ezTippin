@@ -51,6 +51,9 @@ DONE:
 3) - dollar sign in the bill total text field - yup
         - ran into problems with this in converting newly formatted currency string to double
             - fixed this by splitting into array without delimiters and then rejoining
+4) - design ezTippin gradient app icon (kind of like Instagram's) - yup
+5) - (hidden lol) shimmer animated title launch screen (using gradient masks)
+        - can't assign launch screen to class so had to use another view controller in main storyboard but too tedious to click through
 
 ## More Notes
 
@@ -59,8 +62,7 @@ TODO's:
 2) - settings screen to save default values
 3) - round up and round down buttons
 4) - #neon, #ocean, #violetlights color background views
-5) - design ezTippin gradient app icon (kind of like Instagram's)
-6) - shimmer animated title launch screen (using gradient masks)
+5) - change color of highlighted portion of selected segment on segmentedcontroller to match blue gradient background of bill amount area
 
 ## License
 
