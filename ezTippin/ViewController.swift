@@ -33,7 +33,7 @@ class ViewController: UIViewController {
         for (index, view) in sortedViews.enumerated() {
             if index == splitControl.selectedSegmentIndex {
                 //view.backgroundColor = UIColor.blue
-                let fraction = (Double(index+1)/14.0)
+                let fraction = (Double((2*index)+1)/14.0)
                 
                 let b1 = Double(74 + fraction * (187-74))
                 let b2 = Double(144 + fraction * (213-144))
@@ -41,7 +41,29 @@ class ViewController: UIViewController {
                 
                 view.backgroundColor = UIColor(red: CGFloat(b1/255.0), green: CGFloat(b2/255.0), blue: CGFloat(b3/255.0), alpha: 1.0)
                 
-                splitControl.setTitleTextAttributes([NSAttributedString.Key.foregroundColor: UIColor.white], for: .selected)
+                splitControl.setTitleTextAttributes([NSAttributedString.Key.foregroundColor: UIColor.black], for: .selected)
+                
+            } else {
+                view.tintColor = UIColor.white
+                view.backgroundColor = nil
+            }
+        }
+        
+        let sortedViews1 = tipControl.subviews.sorted( by: { $0.frame.origin.x < $1.frame.origin.x } )
+        
+        for (index, view) in sortedViews1.enumerated() {
+            if index == tipControl.selectedSegmentIndex {
+                //view.backgroundColor = UIColor.blue
+                let fraction = (Double((2*index)+1)/10.0)
+                
+                let b1 = Double(142 + fraction * (255-142))
+                let b2 = Double(186 + fraction * (255-186))
+                let b3 = Double(238 + fraction * (255-238))
+                
+                view.backgroundColor = UIColor(red: CGFloat(b1/255.0), green: CGFloat(b2/255.0), blue: CGFloat(b3/255.0), alpha: 1.0)
+                
+                //tipControl.setTitleTextAttributes([NSAttributedString.Key.foregroundColor: UIColor.white], for: .selected)
+                tipControl.setTitleTextAttributes([NSAttributedString.Key.foregroundColor: Colors.black], for: .selected)
                 
             } else {
                 view.tintColor = UIColor.white
@@ -95,35 +117,46 @@ class ViewController: UIViewController {
                 //view.backgroundColor = UIColor.blue
                 //print(index0)
                 
-                let fraction = (Double(index+1)/14.0)
+                let fraction = (Double((2*index)+1)/14.0)
                 
                 let b1 = Double(74 + fraction * (187-74))
                 let b2 = Double(144 + fraction * (213-144))
                 let b3 = Double(228 + fraction * (245-228))
                 
                 view.backgroundColor = UIColor(red: CGFloat(b1/255.0), green: CGFloat(b2/255.0), blue: CGFloat(b3/255.0), alpha: 1.0)
-                
-                //var red = Double(74 + ((index+1)/14) * (187-74))
-                //let green = Double(144 + ((index0+1)/14) * (213-144))
-                //let blue = Double(228 + ((index0+1)/14) * (245-228))
-                //print(index)
+
                 print(b1)
-                //print(green)
-                //print(blue)
-                //if index == 0 { view.setGradientBackground(colorOne: Colors.white, colorTwo: Colors.blue) }
-                //else if index == 1 { view.backgroundColor = Colors.blue1 }
-                //else if index == 2 { view.backgroundColor = Colors.blue2 }
-                //else if index == 3 { view.backgroundColor = Colors.blue3 }
-                //else if index == 3 { view.backgroundColor = Colors.blue4 }
-               // else if index == 3 { view.backgroundColor = Colors.blue5 }
-                //else if index == 6 { view.backgroundColor = Colors.blue6 }
-                splitControl.setTitleTextAttributes([NSAttributedString.Key.foregroundColor: UIColor.white], for: .selected)
+                splitControl.setTitleTextAttributes([NSAttributedString.Key.foregroundColor: UIColor.black], for: .selected)
             } else {
                 view.tintColor = UIColor.white
                 view.backgroundColor = nil
             }
         }
+    
+    }
+    
+    
+    @IBAction func changeColor2(_ sender: Any) {
+        let sortedViews1 = tipControl.subviews.sorted( by: { $0.frame.origin.x < $1.frame.origin.x } )
         
+        for (index, view) in sortedViews1.enumerated() {
+            if index == tipControl.selectedSegmentIndex {
+                //view.backgroundColor = UIColor.blue
+                let fraction = (Double((2*index)+1)/10.0)
+                
+                let b1 = Double(142 + fraction * (255-142))
+                let b2 = Double(186 + fraction * (255-186))
+                let b3 = Double(238 + fraction * (255-238))
+                
+                view.backgroundColor = UIColor(red: CGFloat(b1/255.0), green: CGFloat(b2/255.0), blue: CGFloat(b3/255.0), alpha: 1.0)
+                
+                //tipControl.setTitleTextAttributes([NSAttributedString.Key.foregroundColor: UIColor.white], for: .selected)
+                tipControl.setTitleTextAttributes([NSAttributedString.Key.foregroundColor: Colors.black], for: .selected)
+            } else {
+                view.tintColor = UIColor.white
+                view.backgroundColor = nil
+            }
+        }
     }
     
     @IBAction func calculateTip(_ sender: Any) {
@@ -151,8 +184,8 @@ class ViewController: UIViewController {
         //let bill = Double(billField.text!) ?? 0
         let bill = value/100
         // Calculate the tip and total
-        let tipPercentages = [0.15, 0.18, 0.20, 0.25] //TODO: implement the x% 
-        let waystosplit = [1, 2, 3, 4, 5, 6] //TODO: implement the X
+        let tipPercentages = [0.15, 0.18, 0.20, 0.25, 0.30] //TODO: implement the x%
+        let waystosplit = [1, 2, 3, 4, 5, 6, 7] //TODO: implement the X
         
         let percenttip = tipPercentages[tipControl.selectedSegmentIndex]
         let tip = bill * percenttip
