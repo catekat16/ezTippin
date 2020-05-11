@@ -73,7 +73,8 @@ DONE:
 4) - design ezTippin gradient app icon (kind of like Instagram's) - yup
 5) - (hidden lol) shimmer animated title launch screen (using gradient masks)
         - can't assign launch screen to class so had to use another view controller in main storyboard but too tedious to click through
-6) - change color of highlighted portion of selected segment on segmentedControl to match blue gradient background of bill amount area - sortof 
+6) - change color of highlighted portion of selected segment on segmentedControl to match blue gradient background of bill amount area - fixed
+7) - actually get different gradient shades for selected segment on segmentedControl - so hard to change default settings of segmentedControl but finally did it! 
 
 ## More Notes
 
@@ -82,7 +83,7 @@ TODO's:
 2) - settings screen to save default values
 3) - round up and round down buttons
 4) - #neon, #ocean, #violetlights color background views
-5) - actually get different gradient shades for selected segment on segmentedControl
+
 
 ## License
 
