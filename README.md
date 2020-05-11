@@ -25,12 +25,11 @@ The following **additional** features are implemented:
 - [X] Visually appealing gradient background
 - [X] Tint of segment on segmentedcontrol matches tint of gradient color at that x position
 - [ ] Can enter custom tip percentage value and number of ways to split in the segmentedcontrol
-- [ ] Round up and round down buttons
+- [ ] Round up and round down buttons (in settings?)
 - [ ] Can choose between different themes/moods for the colors of the app in settings view
-- [ ] Can choose local customs for tipping and select type of service (delivery, takeout, restaurant), to determine standard tip percentage
 - [X] App icons
 - [ ] Compatible with all device types and sizes
-- [ ] Can see suggestions of coin/bill breakdowns with images of what each coin/bill looks like next to the corresponding value, which would help travelers not familiar with the local currency (traveler mode in settings, pay with cash or credit card options)
+- [ ] Can choose local customs for tipping and select type of service (delivery, takeout, restaurant), to determine standard tip percentage
 
 ## Video Walkthrough 
 
@@ -42,12 +41,6 @@ Version 1:
 
 <img src='http://g.recordit.co/qhC1mSoNlH.gif' title='Video Walkthrough' width='250' alt='Video Walkthrough' /> 
 
-Version 2:
-
-
-
-<img src='http://g.recordit.co/Nden70S0tk.gif' title='Video Walkthrough' width='250' alt='Video Walkthrough' /> 
-
 Version 3:
 
 
@@ -55,15 +48,9 @@ Version 3:
 <img src='http://g.recordit.co/lEIIJqeXeT.gif' title='Video Walkthrough' width='250' alt='Video Walkthrough' /> 
 
 ## Challenges: Changing the color of a selected segment
-1) - change color of highlighted portion of selected segment on segmentedControl to match blue gradient background of bill amount area - sortof 
-        - did calculations to determine what color of particular segment should be based on x position across gradient,                 divided segments into halves as middle color matches the most
-                - (for example, for top half of gradient, leftmost would be blue and top right corner would be blue +                           width/(width + height) * (white - blue))
-                - then the color of segment n would be leftmost color + 1/14 of the color difference between the rightmost                       color and the leftmost color
-                - ^ do above calculations for each r, g, b value
-        - split each segment into halves for optimal color matching by middle color
-        - big challenge, hacky code to resolve compatibility issue of iOS12 of not having the segmentedControl method of                changing the color of a particular segment: "As of iOS 13b3, there is now a selectedSegmentTintColor on                        UISegmentedControl."
-        - discovered that compiler is reallyyy slow in type-checking complex expressions in reasonable time
-        - really hard to change default settings of segmentedControl, but finally did it!
+1) - change color of highlighted portion of selected segment on segmentedControl to match blue gradient background of bill amount area 
+        - determined what color of particular segment should be based on x position across gradient
+        - hacky code to resolve compatibility issue of iOS12 of not having a selectedSegmentTintColor method on                        UISegmentedControl
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
@@ -73,14 +60,8 @@ DONE:
 1) - indicate tip value below bill value - yup
 2) - have cursor be displayed immediately when user opens app - yup
 3) - dollar sign in the bill total text field - yup
-        - ran into problems with this in converting newly formatted currency string to double
-            - fixed this by splitting into array without delimiters and then rejoining
-4) - design ezTippin gradient app icon (kind of like Instagram's) - yup
-5) - (hidden lol) shimmer animated title launch screen (using gradient masks)
-        - can't assign launch screen to class so had to use another view controller in main storyboard but too tedious to click through
-6) - change color of highlighted portion of selected segment on segmentedControl to match blue gradient background of bill amount area - fixed
-7) - actually get different gradient shades for selected segment on segmentedControl - so hard to change default settings of segmentedControl but finally did it!
-8) changed tintColor of selected segment to black for better visibility and also in accordance with good segmentedControl selection practice
+4) - design ezTippin gradient app icon - yup
+5) - change color of highlighted portion of selected segment on segmentedControl to match blue gradient background of bill amount area - yup
 
 ## More Notes
 
@@ -90,7 +71,6 @@ TODO's:
 3) - round up and round down buttons
 4) - #neon, #ocean, #violetlights color background views
 5) - currency formatting for tipLabel and Total per person label (dollar sign, commas)
-
 
 ## License
 
