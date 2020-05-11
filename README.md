@@ -47,11 +47,6 @@ Version 3:
 
 <img src='http://g.recordit.co/lEIIJqeXeT.gif' title='Video Walkthrough' width='250' alt='Video Walkthrough' /> 
 
-## Challenges: Changing the color of a selected segment
-1) - change color of highlighted portion of selected segment on segmentedControl to match blue gradient background of bill amount area 
-        - determined what color of particular segment should be based on x position across gradient
-        - hacky code to resolve compatibility issue of iOS12 of not having a selectedSegmentTintColor method on                        UISegmentedControl
-
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
@@ -62,6 +57,8 @@ DONE:
 3) - dollar sign in the bill total text field - yup
 4) - design ezTippin gradient app icon - yup
 5) - change color of highlighted portion of selected segment on segmentedControl to match blue gradient background of bill amount area - yup
+        - determined what color of particular segment should be based on x position across gradient
+        - hacky code to resolve compatibility issue of iOS12 of not having a selectedSegmentTintColor method on                        UISegmentedControl
 
 ## More Notes
 
