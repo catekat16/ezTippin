@@ -4,7 +4,7 @@
 
 Submitted by: **Caitlyn Chen**
 
-Time spent: **2.5** hours spent in total
+Time spent: **9** hours spent in total
 
 ## User Stories
 
@@ -50,7 +50,7 @@ Version 2:
 <img src='http://g.recordit.co/Nden70S0tk.gif' title='Video Walkthrough' width='250' alt='Video Walkthrough' /> 
 
 ## Changing the color of a selected segment
-- change color of highlighted portion of selected segment on segmentedControl to match blue gradient background of bill amount area - sortof 
+1) - change color of highlighted portion of selected segment on segmentedControl to match blue gradient background of bill amount area - sortof 
         - did calculations to determine what color of particular segment should be based on x position across gradient
         - big challenge, hacky code to resolve compatibility issue of iOS12 of not having the segmentedControl method of                changing the color of a particular segment: "As of iOS 13b3, there is now a selectedSegmentTintColor on                        UISegmentedControl."
         - discovered that compiler is reallyyy slow in type-checking complex expressions in reasonable time
