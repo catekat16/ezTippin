@@ -37,7 +37,26 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://g.recordit.co/qhC1mSoNlH.gif' title='Video Walkthrough' width='250' alt='Video Walkthrough' />
+Version 1:
+
+
+
+<img src='http://g.recordit.co/qhC1mSoNlH.gif' title='Video Walkthrough' width='250' alt='Video Walkthrough' /> 
+
+Version 2:
+
+
+
+<img src='http://g.recordit.co/Nden70S0tk.gif' title='Video Walkthrough' width='250' alt='Video Walkthrough' /> 
+
+## Changing the color of a selected segment
+- change color of highlighted portion of selected segment on segmentedControl to match blue gradient background of bill amount area - sortof 
+        - did calculations to determine what color of particular segment should be based on x position across gradient
+        - big challenge, hacky code to resolve compatibility issue of iOS12 of not having the segmentedControl method of                changing the color of a particular segment: "As of iOS 13b3, there is now a selectedSegmentTintColor on                        UISegmentedControl."
+        - discovered that compiler is reallyyy slow in type-checking complex expressions in reasonable time
+        - (not sure if able to have different colors for each segment in the segmentedControl, as seen in the following gif)
+        
+<img src='http://g.recordit.co/7GEBu6VJka.gif' title='Video Walkthrough' width='750' alt='Video Walkthrough' /> 
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
@@ -45,17 +64,25 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 Describe any challenges encountered while building the app.
 
-TODO's:
+DONE:
 1) - indicate tip value below bill value - yup
-2) - implement X and X%
-3) - have cursor be displayed immediately when user opens app - yup
-4) - settings screen to save default values
-5) - dollar sign in the bill total text field - yup
+2) - have cursor be displayed immediately when user opens app - yup
+3) - dollar sign in the bill total text field - yup
         - ran into problems with this in converting newly formatted currency string to double
             - fixed this by splitting into array without delimiters and then rejoining
-6) - round up and round down buttons
-7) - #neon, #ocean, #violetlights color background views
-8) - design ezTippin gradient app icon (kind of like Instagram's)
+4) - design ezTippin gradient app icon (kind of like Instagram's) - yup
+5) - (hidden lol) shimmer animated title launch screen (using gradient masks)
+        - can't assign launch screen to class so had to use another view controller in main storyboard but too tedious to click through
+6) - change color of highlighted portion of selected segment on segmentedControl to match blue gradient background of bill amount area - sortof 
+
+## More Notes
+
+TODO's:
+1) - implement X and X%
+2) - settings screen to save default values
+3) - round up and round down buttons
+4) - #neon, #ocean, #violetlights color background views
+5) - actually get different gradient shades for selected segment on segmentedControl
 
 ## License
 
