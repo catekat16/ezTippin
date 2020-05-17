@@ -10,13 +10,32 @@ import UIKit
 
 class SettingsViewController: UIViewController {
 
+    
+    @IBOutlet weak var defaultTip: UISegmentedControl!
+    
+    @IBAction func getpercentagetip(_ sender: Any) {
+        let tipPercentages = [0.15, 0.18, 0.20, 0.25, 0.30]
+        let percenttip = tipPercentages[defaultTip.selectedSegmentIndex]
+        print(percenttip)
+        let defaults = UserDefaults.standard
+        defaults.set(percenttip, forKey: "defaultTip")
+        
+        let getpercenttip = defaults.double(forKey: "defaultTip")
+        //print(getpercenttip)
+        defaults.synchronize()
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        view.setCrazyBackground(colorOne: Colors.pink, colorTwo: Colors.blue, colorThree: Colors.white, colorFour: Colors.white)
     }
     
-
+    @IBAction func back(_ sender: Any) {
+        dismiss(animated: true, completion: nil)
+    }
+    
     /*
     // MARK: - Navigation
 

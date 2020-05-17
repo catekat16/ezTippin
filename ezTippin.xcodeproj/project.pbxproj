@@ -21,6 +21,7 @@
 		AA2A68E524679262009B3540 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA2A68E424679262009B3540 /* String+Extension.swift */; };
 		AA2A68E72467B18F009B3540 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA2A68E62467B18F009B3540 /* SettingsViewController.swift */; };
 		AA45750B2466863E00D02F5F /* UISegmentedControl+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA45750A2466863E00D02F5F /* UISegmentedControl+Extension.swift */; };
+		AA5A2989247121C7005874E3 /* UserDefaults+helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5A2988247121C7005874E3 /* UserDefaults+helpers.swift */; };
 		AAD974C72468C26400D98FEE /* LaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD974C62468C26400D98FEE /* LaunchViewController.swift */; };
 		C4FA21BA6B1CA427DCB19D06 /* Pods_ezTippinTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABC152B6434CA4E907933F98 /* Pods_ezTippinTests.framework */; };
 /* End PBXBuildFile section */
@@ -65,6 +66,7 @@
 		AA2A68E424679262009B3540 /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
 		AA2A68E62467B18F009B3540 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		AA45750A2466863E00D02F5F /* UISegmentedControl+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UISegmentedControl+Extension.swift"; sourceTree = "<group>"; };
+		AA5A2988247121C7005874E3 /* UserDefaults+helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserDefaults+helpers.swift"; sourceTree = "<group>"; };
 		AAD974C62468C26400D98FEE /* LaunchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchViewController.swift; sourceTree = "<group>"; };
 		ABC152B6434CA4E907933F98 /* Pods_ezTippinTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ezTippinTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C74C5B1EDF277117570ACF3A /* Pods-ezTippinTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ezTippinTests.release.xcconfig"; path = "Target Support Files/Pods-ezTippinTests/Pods-ezTippinTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -151,6 +153,7 @@
 				AA2A68E424679262009B3540 /* String+Extension.swift */,
 				AA2A68E62467B18F009B3540 /* SettingsViewController.swift */,
 				AAD974C62468C26400D98FEE /* LaunchViewController.swift */,
+				AA5A2988247121C7005874E3 /* UserDefaults+helpers.swift */,
 			);
 			path = ezTippin;
 			sourceTree = "<group>";
@@ -430,6 +433,7 @@
 				AA2A68E524679262009B3540 /* String+Extension.swift in Sources */,
 				AA092A2D24651163006E9188 /* Constants.swift in Sources */,
 				AAD974C72468C26400D98FEE /* LaunchViewController.swift in Sources */,
+				AA5A2989247121C7005874E3 /* UserDefaults+helpers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

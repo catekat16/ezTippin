@@ -22,10 +22,13 @@ class ViewController: UIViewController {
     @IBOutlet weak var tipControl: UISegmentedControl!
     @IBOutlet weak var splitControl: UISegmentedControl!
     
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
         
+        
+        // Do any additional setup after loading the view, typically from a nib.
+
 //        view.se/Users/xiaoyanyang/Desktop/Companies New/ezTippin/ezTippinUITests/ezTippinUITests.swifttGradientBackground(colorOne: Colors.veryDarkGrey, colorTwo: Colors.darkGrey)
         
         let sortedViews = splitControl.subviews.sorted( by: { $0.frame.origin.x < $1.frame.origin.x } )
@@ -195,5 +198,78 @@ class ViewController: UIViewController {
         tipLabel.text = String(format: "+ $%.2f (%.1f%% Tips)", tip, Double(100*percenttip))
         totalLabel.text = String(format: "$%.2f", total)
     }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        print("view will appear")
+        //tipControl.selectedSegmentIndex =
+        // retrieve the default tip percentage from UserDefaults and use it to update the tip amount here
+        let defaults = UserDefaults.standard
+        let percenttip = defaults.double(forKey: "defaultTip")
+        
+        if percenttip == 0.15 {
+            tipControl.selectedSegmentIndex = 0
+        } else if percenttip == 0.18 {
+            tipControl.selectedSegmentIndex = 1
+        } else if percenttip == 0.20 {
+            tipControl.selectedSegmentIndex = 2
+        } else if percenttip == 0.25 {
+            tipControl.selectedSegmentIndex = 3
+        } else if percenttip == 0.30 {
+            tipControl.selectedSegmentIndex = 4
+        }
+        
+        let sortedViews1 = tipControl.subviews.sorted( by: { $0.frame.origin.x < $1.frame.origin.x } )
+        
+        for (index, view) in sortedViews1.enumerated() {
+            if index == tipControl.selectedSegmentIndex {
+                //view.backgroundColor = UIColor.blue
+                let fraction = (Double((2*index)+1)/10.0)
+                
+                let b1 = Double(142 + fraction * (255-142))
+                let b2 = Double(186 + fraction * (255-186))
+                let b3 = Double(238 + fraction * (255-238))
+                
+                view.backgroundColor = UIColor(red: CGFloat(b1/255.0), green: CGFloat(b2/255.0), blue: CGFloat(b3/255.0), alpha: 1.0)
+                
+                //tipControl.setTitleTextAttributes([NSAttributedString.Key.foregroundColor: UIColor.white], for: .selected)
+                tipControl.setTitleTextAttributes([NSAttributedString.Key.foregroundColor: Colors.black], for: .selected)
+                
+            } else {
+                view.tintColor = UIColor.white
+                view.backgroundColor = nil
+            }
+        }
+        
+        //print(percenttip)
+        
+        let data0 = String(billField.text!)
+        let separators = CharacterSet(charactersIn: "$.,")
+        let data1 = data0.components(separatedBy: separators)
+        let nonempty = data1.filter { (x) -> Bool in !x.isEmpty }
+        let result = nonempty.joined()
+        
+        let value = Double(result) ?? 0
+        //let bill = Double(billField.text!) ?? 0
+        let bill = value/100
+        let tip = bill * percenttip
+        tipLabel.text = String(format: "+ $%.2f (%.1f%% Tips)", tip, Double(100*percenttip))
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        print("view did appear")
+    }
+    
+    override func viewWillDisappear(_ animated: Bool) {
+        super.viewWillDisappear(animated)
+        print("view will disappear")
+    }
+    
+    override func viewDidDisappear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        print("view did disappear")
+    }
+    
 }
 
