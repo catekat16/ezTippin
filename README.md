@@ -4,7 +4,7 @@
 
 Submitted by: **Caitlyn Chen**
 
-Time spent: **12** hours spent in total
+Time spent: **13.5** hours spent in total
 
 ## User Stories
 
@@ -13,7 +13,7 @@ The following **required** functionality is complete:
 * [X] User can enter a bill amount, choose a tip percentage, and see the tip and total values.
 
 The following **optional** features are implemented:
-* [ ] Settings page to change the default tip percentage.
+* [X] Settings page to change the default tip percentage.
 * [X] UI animations
 * [ ] Remembering the bill amount across app restarts (if <10mins)
 * [ ] Using locale-specific currency and currency thousands separators.
@@ -41,11 +41,17 @@ Version 1:
 
 <img src='http://g.recordit.co/qhC1mSoNlH.gif' title='Video Walkthrough' width='250' alt='Video Walkthrough' /> 
 
-Version 3:
+Version 2:
 
 
 
 <img src='http://g.recordit.co/lEIIJqeXeT.gif' title='Video Walkthrough' width='250' alt='Video Walkthrough' /> 
+
+Version 3:
+
+
+
+<img src='http://g.recordit.co/ogi4Mp9try.gif' title='Video Walkthrough' width='250' alt='Video Walkthrough' /> 
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
@@ -59,15 +65,16 @@ DONE:
 5) - change color of highlighted portion of selected segment on segmentedControl to match blue gradient background of bill amount area - yup
         - determined what color of particular segment should be based on x position across gradient
         - hacky code to resolve compatibility issue of iOS12 of not having a selectedSegmentTintColor method on                        UISegmentedControl
+6) - settings screen to save default values - yup
 
 ## More Notes
 
 TODO's:
 1) - implement X and X%
-2) - settings screen to save default values
-3) - round up and round down buttons
-4) - #neon, #ocean, #violetlights color background views
-5) - currency formatting for tipLabel and Total per person label (dollar sign, commas)
+2) - round up and round down buttons
+3) - #neon, #ocean, #violetlights color background views
+4) - currency formatting for tipLabel and Total per person label (dollar sign, commas)
+5) - improve UI of settings screen
 
 ## License
 
